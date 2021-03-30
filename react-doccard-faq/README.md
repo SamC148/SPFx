@@ -20,9 +20,9 @@ For detailed instructions on how to build this web part and teh needed list plea
 
 ### Deploying the code
 1. In the command line run
-    a. npm i
-    b. gulp bundle --ship
-    c. gulp package-solution --ship
+    - npm i
+    - gulp bundle --ship
+    - gulp package-solution --ship
 2. Add to App Catalog
 3. Add App to site with FAQ list
 4. Add web part to page
