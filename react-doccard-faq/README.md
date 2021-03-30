@@ -5,10 +5,10 @@ For detailed instructions on how to build this web part and teh needed list plea
 1. Build a SharePoint Online list named "FAQ"
 2. Rename Title column to "Question"
 3. Add 3 additional columns
-    a. Multiple lines of text column, toggle 'use rich text' to yes, name "Answer"
-    b. Choice column, Options "Work", "Personal", and "Hobby", name "Category"
-    c. Yes/no column, set default to No, name "Featured"
-    ***If you name your list or columns differently you will need to update the code to reflect the changes
+
+    - Multiple lines of text column, toggle 'use rich text' to yes, name "Answer"
+    - Choice column, Options "Work", "Personal", and "Hobby", name "Category"
+    - Yes/no column, set default to No, name "Featured"
 4. Add items to your list making sure to set some to 'yes' in the featured column
 5. Navigate to your sites workbench (https://<tenant>.sharepoint.com/sites/<your site>/_layouts/15/workbench.aspx)
 
