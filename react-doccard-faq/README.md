@@ -1,7 +1,7 @@
 For detailed instructions on how to build this web part and teh needed list please watch: https://www.youtube.com/watch?v=oIr-rgGvUUk
 
 ## react-faq-video
-## prep
+### Prep
 1. Build a SharePoint Online list named "FAQ"
 2. Rename Title column to "Question"
 3. Add 3 additional columns
