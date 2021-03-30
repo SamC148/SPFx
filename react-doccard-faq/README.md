@@ -1,15 +1,23 @@
-## react-faq-video
+For detailed instructions on how to build this web part and teh needed list please watch:https://www.youtube.com/watch?v=oIr-rgGvUUk
 
-This is where you include your WebPart documentation.
+## react-faq-video
+## prep
+1. Build a SharePoint Online list named "FAQ"
+2. Rename Title column to "Question"
+3. Add 3 additional columns
+    a. Multiple lines of text column, toggle 'use rich text' to yes, name "Answer"
+    b. Choice column, Options "Work", "Personal", and "Hobby", name "Category"
+    c. Yes/no column, set default to No, name "Featured"
+    ***If you name your list or columns differently you will need to update the code to reflect the changes
+4. Add items to your list making sure to set some to 'yes' in the featured column
+5. Navigate to your sites workbench (https://<tenant>.sharepoint.com/sites/<your site>/_layouts/15/workbench.aspx)
 
 ### Building the code
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
+1. Clone the repo
+2. In the command line run
+    a. npm i
+    b. gulp serve --nobrowser
 
 This package produces the following:
 
@@ -17,7 +25,31 @@ This package produces the following:
 * dist/* - the bundled script, along with other resources
 * deploy/* - all resources which should be uploaded to a CDN.
 
-### Build options
+### Deploying the code
+
+1. In the command line run
+    a. npm i
+    b. gulp bundle --ship
+    c. gulp package-solution --ship
+2. Add to App Catalog
+3. Add App to site with FAQ list
+4. Add web part to page
+
+### Features
+
+DefaultButton,
+Modal,
+DetailsList,
+IColumn,
+from office-ui-fabric-react
+
+IPropertyPaneDropdownOption 
+ from @microsoft/sp-property-pane
+
+RichText,
+Accessible Accordion 
+from @pnp/spfx-controls-react
+
 
 gulp clean - TODO
 gulp test - TODO
