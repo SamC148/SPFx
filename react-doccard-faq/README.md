@@ -1,4 +1,4 @@
-For detailed instructions on how to build this web part and teh needed list please watch:https://www.youtube.com/watch?v=oIr-rgGvUUk
+For detailed instructions on how to build this web part and teh needed list please watch: https://www.youtube.com/watch?v=oIr-rgGvUUk
 
 ## react-faq-video
 ## prep
@@ -13,20 +13,12 @@ For detailed instructions on how to build this web part and teh needed list plea
 5. Navigate to your sites workbench (https://<tenant>.sharepoint.com/sites/<your site>/_layouts/15/workbench.aspx)
 
 ### Building the code
-
 1. Clone the repo
 2. In the command line run
     a. npm i
     b. gulp serve --nobrowser
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
 ### Deploying the code
-
 1. In the command line run
     a. npm i
     b. gulp bundle --ship
@@ -36,7 +28,6 @@ This package produces the following:
 4. Add web part to page
 
 ### Features
-
 DefaultButton,
 Modal,
 DetailsList,
@@ -50,9 +41,3 @@ RichText,
 Accessible Accordion 
 from @pnp/spfx-controls-react
 
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
